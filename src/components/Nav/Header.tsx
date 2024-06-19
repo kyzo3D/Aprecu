@@ -64,8 +64,11 @@ export const Header: React.FC = () => {
               )}
             </div>
           </Link>
-          <div className="md:h-auto md:max-w-xs">
-            <ConnectButton wallets={wallets} connectButton={{ label: "Entrar", style: { color:"white", fontWeight: 700 }}} locale="es_ES" client={client} theme="light" />
+          <div className="flex max-w-xs">
+            <button onClick={() => location.assign("/administracion")} className="py-2 rounded-xl border w-3/5 border-black px-3 text-xl font-medium">
+              Administración
+            </button>
+            <ConnectButton wallets={wallets} connectButton={{ label: "Entrar", style: { color:"white", fontWeight: 700, marginLeft: 11 }}} locale="es_ES" client={client} theme="light" />
           </div>
         </header>
       </BrowserView>
