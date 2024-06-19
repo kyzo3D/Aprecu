@@ -1,0 +1,46 @@
+{
+  "name": "nft-gallery",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev-aprecu": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,md}\""
+  },
+  "dependencies": {
+    "@tabler/icons-react": "^3.5.0",
+    "@uppy/core": "^3.13.0",
+    "@uppy/dashboard": "^3.9.0",
+    "@uppy/drag-drop": "^3.1.0",
+    "@uppy/dropbox": "^3.4.0",
+    "@uppy/file-input": "^3.1.2",
+    "@uppy/google-drive": "^3.6.0",
+    "@uppy/progress-bar": "^3.1.1",
+    "@uppy/react": "^3.4.0",
+    "@uppy/transloadit": "^3.8.0",
+    "nodemailer": "^6.9.13",
+    "react": "^18.3",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "^18.3",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.23.1",
+    "tailwind-merge": "^2.3.0",
+    "thirdweb": "^5.23.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-helmet": "^6.1.11",
+    "@vitejs/plugin-react-swc": "^3.7.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5",
+    "vite": "^5.2.11",
+    "vite-plugin-node-polyfills": "^0.22.0"
+  }
+}
