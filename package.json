@@ -10,6 +10,7 @@
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "dependencies": {
+    "@ericblade/quagga2": "^1.8.4",
     "@tabler/icons-react": "^3.5.0",
     "@uppy/core": "^3.13.0",
     "@uppy/dashboard": "^3.9.0",
@@ -21,6 +22,7 @@
     "@uppy/react": "^3.4.0",
     "@uppy/transloadit": "^3.8.0",
     "nodemailer": "^6.9.13",
+    "quagga": "^0.12.1",
     "react": "^18.3",
     "react-device-detect": "^2.2.3",
     "react-dom": "^18.3",
