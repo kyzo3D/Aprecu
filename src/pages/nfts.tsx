@@ -41,7 +41,7 @@ function NFTs() {
     if (debouncedSearchTerm) {
       const filtered = nfts?.filter(nft => 
         nft.metadata.attributes?.some(attr => 
-          attr.trait_type === "barcode" && attr.value === debouncedSearchTerm
+          attr.trait_type === "codigos_de_barras" && attr.value === debouncedSearchTerm
         )
       ) || [];
       setFilteredNFTs(filtered);
